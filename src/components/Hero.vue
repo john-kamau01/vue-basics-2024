@@ -6,6 +6,10 @@ defineProps({
     type: String,
     default: "Become a Vue Dev",
   },
+  subtitle: {
+    type: String,
+    default: "Find the Vue job that fits your skills and needs",
+  },
 });
 </script>
 
@@ -19,7 +23,7 @@ defineProps({
           {{ title }}
         </h1>
         <p class="my-4 text-xl text-white">
-          Find the Vue job that fits your skills and needs
+          {{ subtitle }}
         </p>
       </div>
     </div>
